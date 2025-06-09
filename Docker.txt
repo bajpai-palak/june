@@ -1,0 +1,92 @@
+DOCKER: What, Why, and How
+
+1. What is Docker?
+
+Docker is an open-source platform that allows you to:
+
+Build
+
+Ship
+
+Run
+applications inside containers.
+
+
+Container = Lightweight, portable, self-sufficient package that has:
+
+Your application code
+
+All dependencies (libraries, environment, configs)
+
+
+> Think of it as a mini-computer inside your computer that runs just your app perfectly.
+
+
+
+
+---
+
+2. Why is Docker used?
+
+
+---
+
+3. How is Docker used?
+
+Developers write a Dockerfile to define their app and environment.
+
+Then they build an image from it.
+
+And finally run that image as a container.
+
+
+> Dockerfile → Image → Container
+
+
+
+
+---
+
+TOP 10 Docker Commands You Must Know
+
+> Don’t worry — I’ll show you real practice on this soon too.
+
+
+
+
+---
+
+Bonus: Key Differences
+
+
+---
+
+INTERVIEW CHEAT: Docker
+
+> Use this pattern:
+Docker is a containerization platform that allows you to package apps with dependencies into isolated containers. It’s used for consistent, portable, and scalable app deployment.
+
+
+
+
+---
+
+Mini Practice Task for You:
+
+1. Open terminal
+
+
+2. Run:
+
+
+
+docker --version  
+docker pull ubuntu  
+docker run -it ubuntu bash
+
+3. Once inside Ubuntu container, run:
+
+
+
+echo "Hello from inside container!"
+exit
